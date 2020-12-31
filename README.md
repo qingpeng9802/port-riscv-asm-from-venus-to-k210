@@ -48,7 +48,7 @@ TL;DR:
 4. Check the output and change the RISC-V code by Step 1.  
 
 ## Tips before Starting Porting
-If you have any questions about the shape of RISC-V assembly to be generated, the best reference is the code in `k210asms` of [this project]().  
+If you have any questions about the shape of RISC-V assembly to be generated, the best reference is the code in `k210asms` of [this project](https://github.com/qingpeng9802/minijava-to-k210-riscv-compiler).  
   
 > Good start point of GNU Assembler: [GNU Assembler Examples](https://cs.lmu.edu/~ray/notes/gasexamples/) (although it is x86-64 asm) & [The GNU Assembler](https://sourceware.org/binutils/docs/as/)  
   
