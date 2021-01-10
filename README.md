@@ -240,7 +240,7 @@ Since the function `call`ed in the Util Function may destroy all `caller-save re
   
 > For Java Compiler, in [Java spec](https://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html#jls-4.12.5), the default values of `new int[]` is `0`. Thus, `calloc()` is used here instead of `malloc()`.  
   
-> Noticed that there is NOT pointer free step, if you would like to free the pointer, you need to create a Util Function by yourself.  
+> Notice that there is NO free step for the pointers, if you would like to free the pointers, you need to create a Util Function by yourself.  
 This is just an example:  
 ```asm
   addi sp, sp, -96
